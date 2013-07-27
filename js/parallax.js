@@ -105,7 +105,7 @@ $(document).ready(function () {
     function Move() {
         var pos = $window.scrollTop(); //position of the scrollbar
         if ($bg1.hasClass("inview")) {
-            bg1.css({'backgroundPosition': newPos(50, windowHeight, pos, -100, 0.3)});
+            bg1.css({'backgroundPosition': newPos(50, windowHeight, pos, 180, 0.3)});
         }
         if ($bg2.hasClass("inview")) {
             bg2.css({'backgroundPosition': newPos(50, windowHeight, pos, 0, -0.25)});
